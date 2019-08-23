@@ -1,0 +1,50 @@
+html body{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color:mintcream;
+  font-size: small;
+  font-family: sans-serif;
+}
+form{
+  display: inline-block;
+  top:25%;
+  bottom: 25%;
+  right: 25%;
+  left: 30%;
+  position: absolute;
+  border: 1px solid lightgrey;
+  width:30%;
+  height: 650px;
+  padding: 15px;
+  background-color: white;
+  align-items: center;
+
+
+}
+input{
+  width: 250px;
+  height: 25px;
+  border:1px solid gainsboro;
+  border-radius:5px;
+}
+button{
+  background-color: deepskyblue;
+  border-radius: 5px;
+  color: white;
+  width: 255px;
+  height:40px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+h3{
+  font-size: 2rem;
+}
+button :hover{
+ background-color: deepskyblue;
+}
+a{
+  text-decoration: none;
+}
