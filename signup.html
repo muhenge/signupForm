@@ -6,15 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
 
-    <title>Youtube | welcome</title>
+    <title>Sign up form</title>
 </head>
 <body>
-    <form class="" >
-      <div class="">
+  <div id="signin-area">
+
+      Already have an Intuit account<br>
+      <a href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D14523069019631715940444961517151906122%257CMCAID%253D2EAEE263053100E3-6000018340001EC1%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1566822772%26ivid%3Dc6ee09a6-5557-4707-9f13-3fa156034c8d">
+      I forgot my User ID or Password </a>
+
+
+      <button type="submit" name="button" class="btn" id="signin-btn">Sign in</button>
+
+  </div>
+    <div id="form-icons">
+
+        <a href="https://www.mint.com/" target="_blank" class="links link1">
+          <img src="img/mint-favicon.svg" width="20" alt="mint-svg">
+          <img src="img/mint-text.svg" alt="Mint-svg-text">
+        </a>
+        <a href="https://quickbooks.intuit.com/" target="_blank" class="links link2">
+          <img src="img/quickbooks-favicon@2x.svg" width="20" alt="quickbooks">
+          <img src="img/quick-books-text.svg" alt="quickbooks-t">
+        </a>
+        <a href="https://turbotax.intuit.com/" target="_blank" class="links link3">
+          <img src="img/tt-favicon@2x.svg" width="20" alt="mint">
+          <img src="img/turbo-tax-text.svg" alt="">
+        </a>
+      
+    <form id="form">
+      <div id="form-info">
         <p id="form-title">Create an Intuit account<p>
         <p>One account for everything Intuit, include Mint.</p>
         <p> <a href="#"><small>learn more</small></a> </p>
-        <p> Already have an account? <a href="#">Sign in</a> </p>
       </div>
 
 
@@ -28,7 +52,7 @@
 
       <label for="pass">Password</label><br>
       <input type="password" name="pass" ><br><br>
-      <button type="submit" name="button">Create account</button>
+      <button type="submit" name="button" class="btn" id="signup-btn">Create account</button>
       <div class="">
         <p>By clicking Create account, you agree to our
           <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>
@@ -39,5 +63,8 @@
 
 
     </form>
+    </div>
+    <footer></footer>
+
 
 </body>
