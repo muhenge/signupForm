@@ -7,22 +7,18 @@ body{
   background-color: #eceef1;
   font-size: small;
   font-family: 'Calibri','Cambria'sans-serif;
+
+}
+#form-area{
+  position:absolute;;
+  left: 25%;
 }
 form{
-  display: inline-block;
-  position: absolute;
-  top:25%;
-  bottom: 25%;
-  right: 25%;
-  left: 25%;
   border: 1px solid lightgrey;
   width:25%;
   height: 650px;
   padding: 15px;
   background-color: white;
-  align-self: center;
-
-
 }
 input{
   width: 300px;
@@ -41,6 +37,7 @@ input{
   cursor: pointer;
 
 }
+
 #signup-btn{width: 300px; }
 h3{
   font-size: 2rem;
@@ -59,19 +56,14 @@ a{
 
 }
 #signin-area{
-
+  display: inline-block;
   float: right;
   margin-right: 95px;
   padding: 12px;
 }
 #sign
 #form-icons{
-  display: inline;
-  vertical-align: middle;
-  position: absolute;
-  top:25%;
-  bottom: 25%;
-  right: 25%;
+
 
 
 }
