@@ -11,21 +11,38 @@ body{
 
 form{
   border: 1px solid lightgrey;
-  width:50%;
+  width:60%;
   height: 650px;
   padding: 15px;
   background-color: white;
+}
+
+form>label{
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+form input{
+  border: 1px solid #C1C5C8;
+  line-height: 34px; 
+  height: 34px;
+  font-size: 23px;
+  width: 100%;
 }
 
 #form-area{
 display: inline;
 position:fixed;
 left:35%;
-
+top:15%;
 
 }
 #form-icons{
-
+margin-bottom: 3.5%;
+margin-left: 5%
 }
 input{
   width: 300px;
@@ -34,7 +51,7 @@ input{
   border-radius:5px;
 }
 .btn{
-  background-color: deepskyblue;
+  background-color: #0077C5;
   border-radius: 5px;
   color: white;
   /*width: 255px;*/
@@ -42,6 +59,20 @@ input{
   font-size: 1rem;
   border: none;
   cursor: pointer;
+  
+}
+
+.account{
+
+  background-color: #0077C5;
+  border-radius: 5px;
+  color: white;
+  /*width: 255px;*/
+  height:40px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 
 }
 
@@ -56,7 +87,26 @@ a{
   text-decoration: none;
 }
 #form-title{
-  font-size:2rem;
+    font-size:1.5rem;
+    font-weight: 400;
+    color: #404040;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    padding:0px;
+}
+#form-sub-title{
+    font-size:1rem;
+    font-weight: 400;
+    color: #404040;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.learn-more{
+  position: relative;
+   top:-15px;
+   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  font-size: 1.2em;
 }
 #form-info{
   text-align :center;
