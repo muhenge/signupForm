@@ -1,20 +1,23 @@
-/*html body{
+body{
   padding: 0;
   margin: 0;
-}*/
-body{
   background-color: #eceef1;
   font-size: small;
   font-family: 'Calibri','Cambria'sans-serif;
 
 }
 
-form{
+form ,.recap{
   border: 1px solid lightgrey;
   width:60%;
   height: 650px;
   padding: 15px;
   background-color: white;
+}
+.recap{
+  height: 25px;
+  border-top: none;
+  background-color: lightgrey
 }
 
 form>label{
@@ -24,28 +27,36 @@ form>label{
     line-height: 25px;
     font-family: Arial, Helvetica, sans-serif
 }
-
+form>p{
+  text-align: center;
+}
 form input{
   border: 1px solid #C1C5C8;
   line-height: 34px;
   height: 34px;
   font-size: 23px;
-  width: 100%;
+
 }
 
 #form-area{
-display: inline;
-position:fixed;
-left:35%;
-top:15%
 
+  display: inline-block;
+  position:relative;
+  left:35%;
+  margin-top: 150px;
 }
 #form-icons{
 margin-bottom: 3.5%;
 margin-left: 5%
 }
+footer>p{
+  text-align: center;
+}
+footer>p>a{
+  color: black;
+}
 input{
-  width: 300px;
+  width: 350px;
   height: 25px;
   border:1px solid gainsboro;
   border-radius:5px;
@@ -54,26 +65,11 @@ input{
   background-color: #0077C5;
   border-radius: 5px;
   color: white;
-  /*width: 255px;*/
+  box-shadow: 1px black;
   height:40px;
   font-size: 1rem;
-  border: none;
+
   cursor: pointer;
-
-}
-
-.account{
-
-  background-color: #0077C5;
-  border-radius: 5px;
-  color: white;
-  /*width: 255px;*/
-  height:40px;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-
 }
 
 #signup-btn{width: 300px; }
@@ -101,10 +97,18 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+/*.recap {
+  background-color: #eceef1 ;
+  width: 65%;
+  height: 35px;
+  margin-top:0;
+
+
+}*/
 .learn-more{
   position: relative;
-   top:-15px;
-   font-family: Arial, Helvetica, sans-serif;
+  top:-15px;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
   font-size: 1.2em;
 }
@@ -113,16 +117,31 @@ a{
 
 }
 #signin-area{
-  display: inline-block;
+  display: block;
   float: right;
   margin-right: 95px;
   padding: 12px;
 }
-#sign
-#form-icons{
+#form-info{
+  text-align :center;
 
+}
+#signin-area{
+  display: inline-block;
+  float: right;
 
-
+  padding: 12px;
+}
+ #signin-area>p{
+  display: inline-block;
+  margin-left:-250px;
+  vertical-align: middle;
+}
+#signin-area>button{
+  vertical-align: middle;
+  width: 120px;
+  height: 35px;
+  border:1px solid black;
 }
 
 .links{
