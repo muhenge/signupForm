@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #eceef1;
     font-size: small;
-    font-family: 'Calibri', 'Cambria'sans-serif;
+    font-family: 'Calibri', 'Cambria', sans-serif;
 }
 form,
 .recap {
