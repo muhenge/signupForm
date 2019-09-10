@@ -4,5 +4,4 @@ linters:
   fixer:
     enable: true
   csslint:
-    ignore:
-      - 'style.css'
+    ignore: 'style.css,ids'
