@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Intuit Accounts - Up</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="signin-area">
+      <p>
+        Already have an Intuit account<br />
+        <a
+          href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D14523069019631715940444961517151906122%257CMCAID%253D2EAEE263053100E3-6000018340001EC1%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1566822772%26ivid%3Dc6ee09a6-5557-4707-9f13-3fa156034c8d"
+        >
+          I forgot my User ID or Password
+        </a>
+      </p>
 
-  <div id="signin-area">
+      <button type="submit" name="button" class="btn" id="signin-btn">
+        <i class="fas fa-lock"></i>&nbsp;Sign in
+      </button>
+    </div>
 
-      <p>Already have an Intuit account<br>
-      <a href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D14523069019631715940444961517151906122%257CMCAID%253D2EAEE263053100E3-6000018340001EC1%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1566822772%26ivid%3Dc6ee09a6-5557-4707-9f13-3fa156034c8d">
-      I forgot my User ID or Password </a>
-    </p>
-
-      <button type="submit" name="button" class="btn" id="signin-btn"><i class='fas fa-lock'></i>&nbsp;Sign in</button>
-
-  </div>
-
-  <div id="form-area">
-
-    <div id="form-icons">
+    <div id="form-area">
+      <div id="form-icons">
         <section class="formimgtitle">
-            <img src="img/formtitle.PNG" alt="intuit">
-          </section>
+          <img src="img/formtitle.PNG" alt="intuit" />
+        </section>
         <a href="https://www.mint.com/" target="_blank" class="links link1">
-          <img src="img/mint-favicon.svg" width="20" alt="mint-svg">
+          <img src="img/mint-favicon.svg" width="20" alt="mint-svg" />
           <span>mint</span>
         </a>
-        <a href="https://quickbooks.intuit.com/" target="_blank" class="links link2">
-          <img src="img/quickbooks-favicon@2x.svg" width="20" alt="quickbooks">
-         <span>quickbooks</span>
+        <a
+          href="https://quickbooks.intuit.com/"
+          target="_blank"
+          class="links link2"
+        >
+          <img
+            src="img/quickbooks-favicon@2x.svg"
+            width="20"
+            alt="quickbooks"
+          />
+          <span>quickbooks</span>
         </a>
-        <a href="https://turbotax.intuit.com/" target="_blank" class="links link3">
-          <img src="img/tt-favicon@2x.svg" width="20" alt="mint">
+        <a
+          href="https://turbotax.intuit.com/"
+          target="_blank"
+          class="links link3"
+        >
+          <img src="img/tt-favicon@2x.svg" width="20" alt="mint" />
           <span>turbotax</span>
         </a>
-
       </div>
 
+      <form>
+        <div id="form-info">
+          <p id="form-title">Create an Intuit account</p>
+          <p></p>
+          <p id="form-sub-title">
+            One account for everything Intuit, include Mint.
+          </p>
+          <p class="learn-more">
+            <a href="#"><small>Learn more</small></a>
+          </p>
+        </div>
 
-    <form>
-      <div id="form-info">
-        <p id="form-title">Create an Intuit account<p>
-        <p id="form-sub-title">One account for everything Intuit, include Mint.</p>
-        <p class="learn-more"> <a href="#"><small>Learn more</small></a> </p>
-      </div>
+        <label for="email">Email address</label><br />
+        <input type="email" id="email" /><br /><br />
+        <label for="phone">Phone (recommended)</label><br />
+        <div class="">
+          <input type="tel" id="phone" /><br />
+          <small>Standard call, messaging or data rates may apply.</small>
+        </div>
+        <br /><br />
 
+        <label for="pass">Password</label><br />
+        <input type="password" id="pass" class="password" /><br /><br />
+        <button type="submit" name="button" class="btn account" id="signup-btn">
+          <i class="fas fa-lock"></i>&nbsp;Create account</button
+        ><br /><br />
 
-      <label for="email">Email address</label><br>
-      <input type="email" id="email"><br><br>
-      <label for="phone">Phone (recommended)</label><br>
-      <div class="">
-        <input type="tel" id="phone"><br>
-        <small>Standard call, messaging or data rates may apply.</small>
-      </div><br><br>
-
-      <label for="pass">Password</label><br>
-      <input type="password" id="pass" class="password"><br><br>
-      <button type="submit" name="button" class="btn account" id="signup-btn"><i class='fas fa-lock'></i>&nbsp;Create account</button><br><br>
-
-        <p class="terms">By clicking Create account, you agree to our
-          <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>
+        <p class="terms">
+          By clicking Create account, you agree to our <a href="#">Terms</a> and
+          have read and acknowledge our <a href="#">Privacy Statement</a>
         </p>
-  </form>
-<div class="recap">
-  Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a>
-</div>
-</div>
-<footer>
-  <p>
-    <a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a><br>
-    © 2019 Intuit, Inc. All rights reserved.
-    Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
-    Terms and conditions, features, support, pricing, and service options subject to change without notice.
-  </p>
-</footer>
-
-</body>
+      </form>
+      <div class="recap">
+        Invisible reCAPTCHA by Google
+        <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a>
+        and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a>
+      </div>
+    </div>
+    <footer>
+      <p>
+        <a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a
+        ><br />
+        © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit
+        Inc.<br />
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+  </body>
 </html>
